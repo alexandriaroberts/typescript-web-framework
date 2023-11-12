@@ -6,7 +6,6 @@ interface UserProps {
   age?: number;
 }
 
-//Setting up type alias for function
 type Callback = () => void;
 
 export class User {
@@ -14,7 +13,7 @@ export class User {
 
   constructor(private data: UserProps) {}
 
-  get(propName: string): string | number {
+  get(propName: string): number | string {
     return this.data[propName];
   }
 
@@ -42,7 +41,7 @@ export class User {
 
   fetch(): void {
     axios
-      .get(`http://localhost:3000/users/${this.get('id')}}`)
+      .get(`http://localhost:3000/users/${this.get('id')}`)
       .then((response: AxiosResponse): void => {
         this.set(response.data);
       });

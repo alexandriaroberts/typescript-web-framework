@@ -19,7 +19,7 @@
 .DS_Store
 *.pem
 /.cache
-*.dist
+/dist
 
 # debug
 npm-debug.log*

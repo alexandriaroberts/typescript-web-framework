@@ -12,7 +12,7 @@ export class Attributes<T extends object> {
   }
 }
 
-const attrs = new Attributes<UserProps>({ id: 5, age: 20, name: 'Bhau' });
+// const attrs = new Attributes<UserProps>({ id: 5, age: 20, name: 'Bhau' });
 
-const name = attrs.get('name');
-const age = attrs.get('age');
+// const name = attrs.get('name');
+// const age = attrs.get('age');

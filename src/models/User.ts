@@ -9,6 +9,7 @@ export interface UserProps {
 }
 
 const rootUrl = 'http://localhost:3000/users';
+
 export class User {
   public events: Eventing = new Eventing();
   public sync: Sync<UserProps> = new Sync<UserProps>(rootUrl);
@@ -23,10 +24,10 @@ export class User {
   }
 
   get trigger() {
-    return this.events.on;
+    return this.events.trigger;
   }
 
   get get() {
-    return this.events.on;
+    return this.attributes.get;
   }
 }

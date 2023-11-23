@@ -2,21 +2,21 @@
   "users": [
     {
       "id": 1,
-      "name": "Lexie",
-      "age": 30
+      "name": "Alexandria",
+      "age": 0
     },
     {
-      "name": "new",
+      "name": "John",
       "age": 0,
       "id": 2
     },
     {
-      "name": "new",
+      "name": "Jack",
       "age": 0,
       "id": 3
     },
     {
-      "name": "new",
+      "name": "Danni",
       "age": 0,
       "id": 4
     },

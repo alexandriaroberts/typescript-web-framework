@@ -19,6 +19,7 @@
 .DS_Store
 *.pem
 /.cache
+/.parcel-cache
 /dist
 
 # debug
